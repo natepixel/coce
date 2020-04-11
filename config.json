@@ -1,0 +1,29 @@
+{
+  "port": "8080",
+  "providers": ["gb","aws","ol"],
+  "timeout": 8000,
+  "redis": {
+    "host": "127.0.0.1",
+    "port": 6379,
+    "timeout": 5000
+  },
+  "gb": {
+    "timeout": 86400
+  },
+  "aws": {
+    "method": "http",
+    "host": "webservices.amazon.fr",
+    "timeout": 86400,
+    "accessKeyId": "",
+    "secretAccessKey": "",
+    "associateTag": "",
+    "imageSize": "MediumSize"
+  },
+  "amazon": {
+    "timeout": 86400
+  },
+  "ol": {
+    "timeout": 86400,
+    "imageSize": "medium"
+  }
+}
